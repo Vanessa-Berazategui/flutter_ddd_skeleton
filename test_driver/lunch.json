@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Debug Features Tests",
+      "request": "launch",
+      "type": "dart",
+      "program": "test_driver/app_test.dart",
+      "flutterMode": "debug"
+    }
+  ]
+}

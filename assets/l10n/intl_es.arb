@@ -1,0 +1,23 @@
+{
+  "@@locale": "es",
+  "fb_tx_without_connection": "Sin conexion a Internet",
+  "@fb_tx_without_connection": {
+    "description": "Texto de notificación que indica error de conexión"
+  },
+  "fb_tx_expired_time": "Tiempo expirado",
+  "@fb_tx_expired_time": {
+    "description": "Texto de notificación que indica tiempo expirado"
+  },
+  "fb_tx_internal_server_error": "Error interno del servidor",
+  "@fb_tx_internal_server_error": {
+    "description": "Texto de notificación para mostrar cuando el servidor no brinda un mensaje de respuesta"
+  },
+  "fb_tx_unexpected_error": "Ha ocurrido un error inesperado",
+  "@fb_tx_unexpected_error": {
+    "description": "Texto de notificación de que ha ocurrido un error inesperado"
+  },
+  "tx_demo": "Flutter DDD esqueleto",
+  "@tx_demo": {
+    "description": "Texto del proyecto"
+  }
+}

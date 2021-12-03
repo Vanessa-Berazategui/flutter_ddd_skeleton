@@ -1,0 +1,12 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
+  exclude: [build/**, lib/**.config.dart, lib/**/routes/**.gr.dart, lib/**/lang/**, lib/**/assets/**, test/**]
+
+
+linter:
+  rules:
+    public_member_api_docs: false

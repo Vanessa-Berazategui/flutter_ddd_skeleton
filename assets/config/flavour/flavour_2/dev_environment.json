@@ -1,0 +1,4 @@
+{
+  "read_timeout": 30000,
+  "backend_base_url": "http://localhost:8080"
+}

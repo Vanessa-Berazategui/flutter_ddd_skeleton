@@ -1,0 +1,83 @@
+name: flutter_ddd_skeleton
+description: A new Flutter application for DDD architecture skeleton.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  async: ^2.8.1
+  auto_route: ^2.3.2
+  cupertino_icons: ^1.0.4
+  dartz: ^0.10.0
+  dio: ^4.0.3
+  flash: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_gherkin: ^2.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^0.23.0+1
+  get_it: ^7.2.0
+  global_configuration: ^2.0.0-nullsafety.1
+  injectable: ^1.5.0
+  logger: ^1.1.0
+  path_provider: ^2.0.7
+  provider: ^6.0.1
+  rxdart: ^0.27.2
+  shared_preferences: ^2.0.9
+
+dev_dependencies:
+  auto_route_generator: ^2.3.2
+  build_runner: ^2.1.5
+  flutter_driver: # ui test
+    sdk: flutter
+  flutter_gen_runner: ^4.1.2
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^1.5.2
+  test: any
+  very_good_analysis: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Config
+    - assets/config/
+    - assets/config/flavour/flavour_1/
+    - assets/config/flavour/flavour_2/
+
+    # Images
+    - assets/images/launcher/
+
+flutter_intl:
+  enabled: true
+  # Optional
+  # Default: es
+  # <language code>[_<script code>][_<country code>]
+  main_locale: es
+  # Optional
+  # Default: S
+  # Suggested alternative name: AppLocalizations
+  class_name: AppLocalizations
+  # Optional
+  # Default: lib/l10n
+  # Sets the directory of your ARB resource files. Provided value should be a valid path on your system
+  arb_dir: assets/l10n
+  # Optional
+  # Default: lib/generated
+  # Sets the directory of generated localization files. Provided value should be a valid path on your system
+  output_dir: lib/src/uy/com/vberazategui/shared/presentation/lang
+
+flutter_gen:
+  output: lib/src/uy/com/vberazategui/shared/presentation/assets
+  # Optional
+  integrations:
+    flutter_svg: true
