@@ -15,11 +15,11 @@ class DemoRemoteDataSourceImpl implements DemoRemoteDataSource {
   DemoRemoteDataSourceImpl({required this.client});
 
   final Dio client;
-  final _loginUrl = GlobalConfiguration().get('user_login_url');
+  final _demoUrl = GlobalConfiguration().get('demo_url');
 
   @override
   Future<void> demoMethod(String demoDetail) async {
-    final url = '$_loginUrl'
+    final url = '$_demoUrl'
         .replaceFirst('{demoDetail}', Uri.encodeComponent(demoDetail));
 
     final response = await client.post(url);
