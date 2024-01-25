@@ -18,7 +18,7 @@ Also in this ready to go DDD skeleton is configured:
   * File flavour configuration.
   * File environment configuration.
   * Getit injection dependencies.
-  * Aut-route route solution.
+  * Auto-route route solution.
   * Flutter code generator for your asset.
   * Flutter gherkin integration test.
   * FVM configuration.
